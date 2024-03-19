@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vue3 mapboard</title>
+    <link rel="stylesheet" href="//unpkg.com/phila-standards@1.0.2/dist/css/phila-app.min.css">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="grid-y medium-grid-frame" id="application">
+      <div id="app"></div>
+      <div class="app-footer">
+        <!-- remove the anchor class if you want to handle footer placement yourself, otherwise it will be postion: fixed -->
+        <footer>
+          <div class="row expanded">
+            <div class="columns">
+              <nav>
+                <ul class="inline-list">
+                  <li>
+                    <a href="//phila.formstack.com/forms/atlas_feedback_form" target="_blank">Feedback</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
